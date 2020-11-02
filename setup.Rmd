@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+author: "Charlotte Dawson"
+date: "02/11/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{bash, eval=FALSE}
+brew install python@3.7
+
+python3.7 -m venv venv
+
+source venv/bin/activate
+
+pip install --upgrade pip
+
+pip install pyopenms
+```
